@@ -1,0 +1,13 @@
+class Shop:
+    def __init__(self,icecream_types,icecream_flavors,icecream_cost):
+       self.icecream_types=icecream_types
+       self.icecream_flavors=icecream_flavors
+       self.icecream_cost=icecream_cost
+
+
+    def output(self):
+      print(f"my favourite icecream is  {self.icecream_types} and my favouroite flavour is {self.icecream_flavors} and its's rate is {self.icecream_cost}")
+
+icecream=Shop('cone','chocalate',100)
+
+icecream.output()
