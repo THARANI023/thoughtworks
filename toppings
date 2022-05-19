@@ -1,0 +1,26 @@
+class IcecreamType:
+    icecream_type_name: str
+    price: float
+
+    def __init__(self, Name:str, Price:float):
+        self.icecream_type_name = Name
+        self.price = Price
+
+    def  setName(self, name:str):
+        self.icecream_type_name = name
+
+    def  setPrice(self, price:float):
+        self.price = price
+
+    def output(self):
+        print(f"icecream name:{self.icecream_type_name} ; price:{self.price}")
+
+oreo_crumbles = IcecreamType("Oreo Crumbles",20)
+cherries = IcecreamType("Cherries",35)
+chocolate_chips = IcecreamType("Chocolate Chips",60)
+fruity_fruity = IcecreamType("Fruity Fruity",10)
+
+oreo_crumbles.output()
+cherries.output()
+chocolate_chips.output()
+fruity_fruity.output()
