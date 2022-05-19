@@ -1,0 +1,16 @@
+class Flavors:
+    def __init__(self,icecream_flavors,price):
+       self.icecream_flavors=icecream_flavors
+       self.price=price
+
+
+    def output(self):
+      print(f"flavours:{self.icecream_flavors} ; price:{self.price}")
+
+chocolate=Flavors("Chocolate",20)
+venilla=Flavors("Venilla",30)
+strawberry=Flavors("Strawberry",25)
+
+chocolate.output()
+venilla.output()
+strawberry.output()
